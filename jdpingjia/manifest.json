@@ -1,0 +1,26 @@
+{
+
+  "description": "解决大量订单没有评价，解放双手。",
+  "manifest_version": 2,
+  "name": "jdpingjia",
+  "version": "1.0",
+  "homepage_url": "https://club.jd.com/myJdcomments/myJdcomment.action",
+  "icons": {
+    "48": "icons/jdpingjia.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "zhangxing84@126.com",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://club.jd.com/*"],
+      "js": ["js/jquery-3.1.1.min.js","js/jdpingjia.js"]
+    }
+  ]
+
+}
