@@ -13,3 +13,4 @@
 ![image](reademe_img/chrome-03.png)</br>
 
 <h1 style="color:red;">直接访问评价地址会自动执行。</h1>
+地址：https://club.jd.com/myJdcomments/myJdcomment.action
